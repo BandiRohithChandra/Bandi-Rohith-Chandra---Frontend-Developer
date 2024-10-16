@@ -12,11 +12,11 @@
 .market-container,
 .risk-guard-container,
 .portfolio-container,
-.scout-container {
-    background-color: #10393E; 
-    border-radius: 10px; 
-    padding: 20px; 
-    margin: 10px; 
+.scout-container,.empty-container {
+    background-color: #10393E;
+    border-radius: 10px;
+    padding: 20px;
+    min-height: calc(50% - 12px);
 }
 
 

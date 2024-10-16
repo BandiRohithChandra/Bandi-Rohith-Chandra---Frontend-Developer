@@ -61,3 +61,10 @@ p{
     width: 540px;
     padding-right: 80px;
 }
+
+@media screen and (max-width: 767px){
+    .donut {
+        max-width: 100%;
+        padding: 0 5%;
+    }
+}
